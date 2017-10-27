@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E4670331EDAC41700D441B9 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E4670321EDAC41700D441B9 /* background.jpg */; };
 		0EB3892A1EDA63CF0050768F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB389291EDA63CF0050768F /* AppDelegate.swift */; };
 		0EB3892C1EDA63CF0050768F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3892B1EDA63CF0050768F /* TableViewController.swift */; };
 		0EB3892F1EDA63CF0050768F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB3892D1EDA63CF0050768F /* Main.storyboard */; };
 		0EB389311EDA63CF0050768F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB389301EDA63CF0050768F /* Assets.xcassets */; };
 		0EB389341EDA63CF0050768F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB389321EDA63CF0050768F /* LaunchScreen.storyboard */; };
 		0EB3893C1EDA654A0050768F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3893B1EDA654A0050768F /* DataService.swift */; };
-		0EB3893E1EDA9E230050768F /* clear-day.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB3893D1EDA9E230050768F /* clear-day.png */; };
-		0EB389401EDA9E290050768F /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB3893F1EDA9E290050768F /* cloudy.png */; };
-		0EB389421EDA9E2F0050768F /* clear-night.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB389411EDA9E2F0050768F /* clear-night.png */; };
-		0EB389441EDA9E340050768F /* partly-cloudy-day.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB389431EDA9E340050768F /* partly-cloudy-day.png */; };
-		0EB389461EDA9E390050768F /* partly-cloudy-night.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB389451EDA9E390050768F /* partly-cloudy-night.png */; };
 		0EB389491EDA9ECC0050768F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB389481EDA9ECC0050768F /* CustomCell.swift */; };
 		0EB3894B1EDAA9F20050768F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3894A1EDAA9F20050768F /* CollectionViewCell.swift */; };
 		0EB3894F1EDAADCB0050768F /* HeaderTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3894E1EDAADCB0050768F /* HeaderTBC.swift */; };
@@ -27,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E4670321EDAC41700D441B9 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Desktop/demoApp/demoWeather/demoWeather/background.jpg; sourceTree = "<group>"; };
 		0EB389261EDA63CF0050768F /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB389291EDA63CF0050768F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EB3892B1EDA63CF0050768F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -36,11 +29,6 @@
 		0EB389331EDA63CF0050768F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EB389351EDA63CF0050768F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EB3893B1EDA654A0050768F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		0EB3893D1EDA9E230050768F /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clear-day.png"; path = "../../../Desktop/demoApp/demoWeather/demoWeather/clear-day.png"; sourceTree = "<group>"; };
-		0EB3893F1EDA9E290050768F /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy.png; path = ../../../Desktop/demoApp/demoWeather/demoWeather/cloudy.png; sourceTree = "<group>"; };
-		0EB389411EDA9E2F0050768F /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clear-night.png"; path = "../../../Desktop/demoApp/demoWeather/demoWeather/clear-night.png"; sourceTree = "<group>"; };
-		0EB389431EDA9E340050768F /* partly-cloudy-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "partly-cloudy-day.png"; path = "../../../Desktop/demoApp/demoWeather/demoWeather/partly-cloudy-day.png"; sourceTree = "<group>"; };
-		0EB389451EDA9E390050768F /* partly-cloudy-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "partly-cloudy-night.png"; path = "../../../Desktop/demoApp/demoWeather/demoWeather/partly-cloudy-night.png"; sourceTree = "<group>"; };
 		0EB389481EDA9ECC0050768F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		0EB3894A1EDAA9F20050768F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
 		0EB3894E1EDAADCB0050768F /* HeaderTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTBC.swift; sourceTree = "<group>"; };
@@ -94,22 +82,8 @@
 				0EB389301EDA63CF0050768F /* Assets.xcassets */,
 				0EB389321EDA63CF0050768F /* LaunchScreen.storyboard */,
 				0EB389351EDA63CF0050768F /* Info.plist */,
-				0EB389471EDA9E470050768F /* icon */,
 			);
 			path = Weather;
-			sourceTree = "<group>";
-		};
-		0EB389471EDA9E470050768F /* icon */ = {
-			isa = PBXGroup;
-			children = (
-				0E4670321EDAC41700D441B9 /* background.jpg */,
-				0EB3893D1EDA9E230050768F /* clear-day.png */,
-				0EB3893F1EDA9E290050768F /* cloudy.png */,
-				0EB389411EDA9E2F0050768F /* clear-night.png */,
-				0EB389431EDA9E340050768F /* partly-cloudy-day.png */,
-				0EB389451EDA9E390050768F /* partly-cloudy-night.png */,
-			);
-			name = icon;
 			sourceTree = "<group>";
 		};
 		3E34C065B47402F3DF853C3B /* Pods */ = {
@@ -191,14 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E4670331EDAC41700D441B9 /* background.jpg in Resources */,
-				0EB389441EDA9E340050768F /* partly-cloudy-day.png in Resources */,
 				0EB389341EDA63CF0050768F /* LaunchScreen.storyboard in Resources */,
-				0EB389461EDA9E390050768F /* partly-cloudy-night.png in Resources */,
 				0EB389311EDA63CF0050768F /* Assets.xcassets in Resources */,
-				0EB3893E1EDA9E230050768F /* clear-day.png in Resources */,
-				0EB389401EDA9E290050768F /* cloudy.png in Resources */,
-				0EB389421EDA9E2F0050768F /* clear-night.png in Resources */,
 				0EB3892F1EDA63CF0050768F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
